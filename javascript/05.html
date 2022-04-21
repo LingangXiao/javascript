@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+        //    在js中，所有的数值都是number类型(int float)
+            var a = 123;
+            a = 123.456; //从上到下，a只取最下面的赋值
+
+            // 可以使用一个运算符typeof来检查一个变量的类型
+            typeof a;
+            document.write(a);
+            document.write(typeof a);
+            
+
+            b = "abc" * "qwe"; //两个字符串相乘，会等于NaN，Not a Number。NaN 的 typeof 也是number
+
+            // Number.MAX_VALUE 会显示js最大的数字，但是Number.MIN_VALUE是零上最小的数字
+
+            console.log (b);
+
+        </script>
+</html>

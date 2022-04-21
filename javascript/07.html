@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            //  强制类型转换
+            //toString 方法
+            var a = 123; // typeof 是 number
+
+            a.toString(); //调用toString的方法，把a从number变成String，但a还是number，因为该方法不会改变原变量，只会改变返回结果
+
+            a = a.toString(); //这种调用方法才会把a变成String
+
+            //调用函数的方法
+            b = 456;
+            b = String(b); //适用性比toString 要好，因为可以强制转换null和undefined
+
+            //该看第12集了
+
+
+        </script>
+</html>
